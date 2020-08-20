@@ -233,15 +233,14 @@ footer p {
 }
 @media screen and (max-width: 1100px) {
   .flex-2 {
-    flex-direction: column;
     width: 90%;
-  }
-
-  .mobileHide {
-    display: none;
   }
 }
 @media screen and (max-width: 768px) {
+  .mobileHide {
+    display: none;
+  }
+
   .flex-2 {
     width: 100%;
   }
